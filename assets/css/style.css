@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(191, 162, 140);
+}
+
+h2 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+}
+
+h1 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+    filter: brightness(50%);
+}
+
+h3 {
+    color: white;
+}
