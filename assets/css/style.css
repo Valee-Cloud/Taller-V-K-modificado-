@@ -2,6 +2,11 @@ body {
     background-color: rgb(191, 162, 140);
 }
 
+.titulo {
+    text-align: center;
+    border-bottom: 2px solid lemonchiffon;
+}
+
 h2 {
     background-color: rgb(186, 191, 148);
     color: white;
@@ -22,4 +27,23 @@ img {
 
 h3 {
     color: white;
+}
+
+audio {
+    float: left;
+}
+
+.inicio {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    color: white;
+    text-decoration: none;
+}
+
+.forms {
+    color: white;
+    text-decoration: none;
 }

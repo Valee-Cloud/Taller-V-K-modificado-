@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(191, 162, 140);
+}
+
+h1 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+}
+
+table, th, td {
+    border-color: rgb(243, 228, 201);
+    border-style: solid;
+    border-radius: 8px;
+}
