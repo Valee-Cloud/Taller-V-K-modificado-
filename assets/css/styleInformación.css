@@ -6,6 +6,7 @@ h1 {
     background-color: rgb(186, 191, 148);
     color: white;
     margin: 5px;
+    letter-spacing: 5px;
 }
 
 p {
@@ -17,6 +18,7 @@ h2 {
     background-color: rgb(186, 191, 148);
     color: white;
     margin: 5px;
+    letter-spacing: 5px;
 }
 
 table, th, td {
@@ -26,12 +28,15 @@ table, th, td {
     height: 100px;
     width: 500px;
     padding: 6px;
-    box-shadow: 5% salmon;
 }
 
 td, th {
     color: white;
     margin: 4px;
+}
+
+td {
+    text-align: center;
 }
 
 tr:nth-child(even) {
@@ -45,4 +50,10 @@ li {
 .conteiner {
     cursor: pointer;
     overflow-x: auto;
+}
+
+IMG {
+    height: 200PX;
+    width: 250PX;
+    margin: 20PX;
 }
