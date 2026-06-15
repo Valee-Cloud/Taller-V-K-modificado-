@@ -5,19 +5,44 @@ body {
 h1 {
     background-color: rgb(186, 191, 148);
     color: white;
+    margin: 5px;
 }
 
 p {
     color: white;
+    margin: 5px;
 }
 
 h2 {
     background-color: rgb(186, 191, 148);
     color: white;
+    margin: 5px;
 }
 
 table, th, td {
     border-color: rgb(243, 228, 201);
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 4px;
+    height: 100px;
+    width: 500px;
+    padding: 6px;
+    box-shadow: 5% salmon;
+}
+
+td, th {
+    color: white;
+    margin: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(186, 191, 148);
+}
+
+li {
+    color: white;
+}
+
+.conteiner {
+    cursor: pointer;
+    overflow-x: auto;
 }

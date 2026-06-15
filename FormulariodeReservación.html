@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reservación</title>
+    <link rel="stylesheet" href="assets/css/styleFormulariodeReservación.css">
+</head>
+<body>
+    <h1>Formulario de Reservación</h1>
+
+    <form action="/enviar-datos" method="post">
+        <h3>Complete la siguiente información, para facilitar la atención: </h3>
+        <label for="name">Nombre Completo: </label><br>
+        <input type="name" id="name" required><br>
+        <label for="name">Nombre Completo: </label><br>
+        <input type="name" id="name" required><br>
+        <label for="name">Correo Electrónico: </label><br>
+        <input type="email" id="email" required><br>
+        <label for="number">Teléfono: </label><br>
+        <input type="text" id="text" required><br>
+    </form>
+
+    <form action="">
+        <h3>Seleccione el servicio que desea: </h3>
+        <input type="radio" name="servicioautomotriz" id="servicioautomotriz" value="Mantenimiento Preventivo">
+        <label for="Mantenimiento Preventivo">Mantenimiento Preventivo</label><br>
+        <input type="radio" name="servicioautomotriz" id="servicioautomotriz" value="Mecánica General">
+        <label for="Mantenimiento Preventivo">Mecánica General</label><br>
+        <input type="radio" name="servicioautomotriz" id="servicioautomotriz" value="Diagnóstico">
+        <label for="Mantenimiento Preventivo">Diagnóstico</label><br>
+        <input type="radio" name="servicioautomotriz" id="servicioautomotriz" value="Auxilio en Carretera">
+        <label for="Mantenimiento Preventivo">Auxilio en Carretera</label><br>
+        <input type="radio" name="servicioautomotriz" id="servicioautomotriz" value="Preparacion para DEKRA">
+        <label for="Preparacion para DEKRA">Preparación para DEKRA</label><br>
+
+        <button type="submit">Confirmar Reservación</button>
+    </form>
+
+    <footer>
+        &copy; 2025 Mi Taller Mecánico Automotriz. Todos los derechos de autor: Reservados
+        <blockquote>"La vida es demasiado corta para conducir autos aburridos."-Ken Block </blockquote>
+    </footer>
+</body>
+</html>
