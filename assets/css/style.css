@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(191, 162, 140);
 }
@@ -25,7 +26,6 @@ img {
     width: 200px;
     margin: auto;
     display: block;
-    filter: brightness(50%);
 }
 
 h3 {

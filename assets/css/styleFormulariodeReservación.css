@@ -41,6 +41,7 @@ form {
     transform: scale(1.1);
 }
 
-.comentario {
-    color: blue;
+nav {
+    text-decoration: none;
+    color: white;
 }
