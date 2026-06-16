@@ -52,8 +52,13 @@ li {
     overflow-x: auto;
 }
 
-IMG {
-    height: 200PX;
-    width: 250PX;
-    margin: 20PX;
+img {
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+}
+
+.imagen {
+    transform: rotate3d(2.3);
 }

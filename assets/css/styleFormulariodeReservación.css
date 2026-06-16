@@ -17,6 +17,7 @@ h1 {
 h3 {
     background-color: rgb(186, 191, 148);
     color: white;
+    letter-spacing: 5px;
 }
 
 form {
@@ -38,4 +39,8 @@ form {
 .boton:hover {
     background-color: rgb(186, 191, 148);
     transform: scale(1.1);
+}
+
+.comentario {
+    color: blue;
 }

@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="assets/css/styleFormulariodeReservación.css">
 </head>
 <body>
-    <h1>Formulario de Reservación</h1>
-
-    <form action="/enviar-datos" method="post">
+    <header>
+        <h1>Formulario de Reservación</h1>
+    </header>
+    
+    <main>
+        <form action="/enviar-datos" method="post">
     <h3>Complete la siguiente información, para facilitar la atención: </h3>
         <label for="name">Nombre: </label><br>
-        <input type="name" id="name" required><br>
+        <input type="name" id="nombre" required><br>
         <label for="name">Apellidos: </label><br>
-        <input type="name" id="name" required><br>
+        <input type="name" id="apellidos" required><br>
         <label for="number">Cédula de Identidad: </label><br>
-        <input type="text" id="text" placeholder="Ej: 0-0000-0000" required><br>
+        <input type="text" id="identidad" placeholder="Ej: 0-0000-0000" required><br>
         <label for="name">Correo Electrónico: </label><br>
         <input type="email" id="email" placeholder="Ej: info.servicios@gmail.com" required><br>
         <label for="number">Teléfono: </label><br>
-        <input type="text" id="text" placeholder="Ej: 0000-0000" required><br>
+        <input type="text" id="telefono" placeholder="Ej: 0000-0000" required><br>
     </form>
 
     <form action="">
@@ -51,6 +54,8 @@
         <blockquote>"La vida es demasiado corta para conducir autos aburridos."-Ken Block </blockquote>
     </footer>
     </div>
+    </main>
+    
     
 </body>
 </html>
