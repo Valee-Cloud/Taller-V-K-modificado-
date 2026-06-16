@@ -41,7 +41,7 @@ form {
     transform: scale(1.1);
 }
 
-nav {
+.back {
     text-decoration: none;
     color: white;
 }
