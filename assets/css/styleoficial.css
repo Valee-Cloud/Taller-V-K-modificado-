@@ -12,19 +12,26 @@ h1 {
     background-color: rgb(186, 191, 148);
     color: white;
     letter-spacing: 5px;
+    margin: 5px;
 }
 
 h2 {
     background-color: rgb(186, 191, 148);
     color: white;
     letter-spacing: 5px;
+    margin: 5px;
 }
 
 h3 {
     color: white;
 }
 
-img {
+p {
+    color: white;
+    margin: 5px;
+}
+
+img { /*Logo de la página*/
     height: 300px;
     width: 300px;
     margin: 0 auto;
@@ -48,4 +55,75 @@ audio {
 .forms {
     color: white;
     text-decoration: none;
+}
+
+table, th, td {
+    border-color: rgb(243, 228, 201);
+    border-style: solid;
+    border-radius: 4px;
+    height: 100px;
+    width: 500px;
+    padding: 6px;
+}
+
+td, th {
+    color: white;
+    margin: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(186, 191, 148);
+}
+
+li {
+    color: white;
+}
+
+.conteiner {
+    cursor: pointer;
+    overflow-x: auto;
+}
+
+img { /*Imagen colocada en la página de información*/
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    display: flex;
+}
+
+footer {
+    background-color: rgb(186, 191, 148);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+form {
+    color: white;
+}
+
+.box {
+    border-radius: 8px;
+    padding: 15px;
+    margin: 8px;
+}
+
+.boton {
+    background-color: white;
+    padding: 8px;
+    transition: 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgb(186, 191, 148);
+    transform: scale(1.1);
+}
+
+.back {
+    text-decoration: none;
+    color: white;
 }
