@@ -23,3 +23,29 @@ h2 {
 h3 {
     color: white;
 }
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+audio {
+    float: left;
+}
+
+.inicio {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    color: white;
+    text-decoration: none;
+}
+
+.forms {
+    color: white;
+    text-decoration: none;
+}
