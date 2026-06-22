@@ -2,6 +2,12 @@ body {
     background-color: rgb(191, 162, 140);
 }
 
+@media (orientation: landscape) {
+    body {
+        background-color: rgb(186, 191, 148);
+    }
+}
+
 .titulo {
     text-align: center;
     border-bottom: 2px solid lemonchiffon;
@@ -32,15 +38,10 @@ p {
 }
 
 img { /*Logo de la página*/
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     margin: 0 auto;
     display: block;
-}
-
-.milogo {
-    min-width: 100%;
-    height: auto;
 }
 
 audio {
@@ -60,6 +61,13 @@ audio {
 .forms {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+    div.milogo {
+        min-width: 100%;
+        height: auto;
+    }
 }
 
 table, th, td {
@@ -98,6 +106,13 @@ img { /*Imagen colocada en la página de información*/
     width: 250px;
     margin: 20px;
     display: flex;
+}
+
+@media (min-width: 960px) {
+    .imgdescription {
+        min-width: 100%;
+        height: auto;
+    }
 }
 
 footer {
