@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(191, 162, 140);
+}
+
+.titulo {
+    text-align: center;
+    border-bottom: 2px solid lemonchiffon;
+    letter-spacing: 5px;
+}
+
+h1 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+    letter-spacing: 5px;
+}
+
+h2 {
+    background-color: rgb(186, 191, 148);
+    color: white;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: white;
+}
